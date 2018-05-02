@@ -94,7 +94,7 @@ h6 {
  * LINK STYLE
  *------------------------------------------*/
 a {
-    color              : #fd367e;
+    color              : #98ffff;
     text-decoration    : none;
     -webkit-transition : all 0.3s ease 0s;
     -moz-transition    : all 0.3s ease 0s;
@@ -135,6 +135,7 @@ ul {
 .btn {
     padding        : 10px 30px;
     margin-bottom  : 0;
+    position       : bottom
     font-size      : 16px;
     border-radius  : 0;
     font-weight    : 500;
@@ -149,8 +150,9 @@ ul {
 
 /*btn-primary*/
 .btn-primary {
-    background-color : #fd367e;
-    border-color     : #fd367e;
+    background-color : #ffffff;
+    border-color     : #ffffff;
+
     }
 
 .btn-primary:hover,
@@ -159,6 +161,7 @@ ul {
     background   : transparent;
     color        : #fd367e;
     border-color : #fd367e;
+
     }
 
 /*btn-default*/
@@ -180,6 +183,7 @@ button:focus,
 .btn:focus,
 .btn:active:focus {
     outline : none;
+     position       : bottom
     }
 
 /* --------------------
@@ -210,9 +214,9 @@ button:focus,
 
 .header {
     position : absolute;
-    left     : 15px;
-    right    : 15px;
-    top      : 40px;
+    color    : #fd367e;
+    
+    top      : 20px;
     z-index  : 9;
     }
 
@@ -220,12 +224,14 @@ button:focus,
 .navbar-brand {
     padding : 0;
     height  : auto;
+    
     margin  : 5px 0 !important;
     }
 
 @media (max-width : 768px) {
     .navbar-brand {
         width : 200px;
+
         }
 
     .navbar-brand img {
@@ -238,6 +244,7 @@ button:focus,
 
 .navbar {
     border-radius  : 0;
+
     padding        : 30px 0;
     background     : transparent;
     margin         : 0;
@@ -247,7 +254,8 @@ button:focus,
 
 @media (max-width : 768px) {
     .navbar {
-        padding : 10px;
+        padding : 20px;
+        
         }
     }
 
@@ -256,6 +264,7 @@ button:focus,
     margin        : 5px 0;
     padding       : 11px 10px;
     background    : transparent;
+    
     }
 
 .navbar-toggle:hover {
@@ -269,19 +278,21 @@ button:focus,
 /*Navigation Style*/
 
 .main-menu .navbar-right {
-    margin-right : -15px;
+    margin-left:  : -15px;
     }
 
 .main-menu .nav li a {
     color       : #ffffff;
     font-weight : 500;
-    padding     : 15px 0 15px 30px;
+    /*padding     : 15px 0 15px 30px;*/
+    top: 25px;
     }
 
 .main-menu .nav li a:hover,
 .main-menu .nav li.active a {
-    color      : #fd367e;
+    color      : #98ffff;
     background : transparent;
+    
     }
 
 .main-menu .nav li a:focus {
@@ -297,28 +308,34 @@ button:focus,
 @media (max-width : 768px) {
     .main-menu .nav li {
         text-align : center;
+
         }
 
     .main-menu .nav li a {
         padding : 5px 0;
-        color: #0e1555;
+        color: #98ffff;
+
         }
 
     .navbar-collapse {
         margin-top : 10px;
         background: #fff;
+
         }
     }
 
 
 /* Sticky Menu */
 .sticky-nav {
+
     position           : fixed;
+
+    color              : #565455;
     right              : 0;
     left               : 0;
     top                : 0;
     z-index            : 999;
-    background         : #ffffff !important;
+    background         : #565455 !important;
     padding            : 5px 0;
     box-shadow         : 0 2px 5px rgba(0, 0, 0, .1);
     -webkit-transition : all .5s ease-in-out;
@@ -327,17 +344,20 @@ button:focus,
     }
 
 .sticky-nav .nav li a {
-    color : #0e1555;
+    color : #98ffff;
+    
     }
 
 .sticky-nav .navbar-toggle .icon-bar{
     background: #333;
+    top      : 40px;
     }
 
 @media (max-width: 768px) {
     .sticky-nav{
         padding-left: 10px;
         padding-right: 10px;
+        top      : 30px
         }
     }
 
