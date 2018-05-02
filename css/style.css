@@ -150,7 +150,7 @@ ul {
 
 /*btn-primary*/
 .btn-primary {
-    background-color : #ffffff;
+    background-color : #353e55;
     border-color     : #ffffff;
 
     }
@@ -159,8 +159,8 @@ ul {
 .btn-primary:focus,
 .btn-primary:active:focus {
     background   : transparent;
-    color        : #fd367e;
-    border-color : #fd367e;
+    color        : #353e55;
+    border-color : #353e55;
 
     }
 
@@ -215,7 +215,7 @@ button:focus,
 .header {
     position : absolute;
     color    : #fd367e;
-    
+
     top      : 20px;
     z-index  : 9;
     }
@@ -224,7 +224,7 @@ button:focus,
 .navbar-brand {
     padding : 0;
     height  : auto;
-    
+
     margin  : 5px 0 !important;
     }
 
@@ -255,7 +255,7 @@ button:focus,
 @media (max-width : 768px) {
     .navbar {
         padding : 20px;
-        
+
         }
     }
 
@@ -264,7 +264,7 @@ button:focus,
     margin        : 5px 0;
     padding       : 11px 10px;
     background    : transparent;
-    
+
     }
 
 .navbar-toggle:hover {
@@ -292,7 +292,7 @@ button:focus,
 .main-menu .nav li.active a {
     color      : #98ffff;
     background : transparent;
-    
+
     }
 
 .main-menu .nav li a:focus {
@@ -345,7 +345,7 @@ button:focus,
 
 .sticky-nav .nav li a {
     color : #98ffff;
-    
+
     }
 
 .sticky-nav .navbar-toggle .icon-bar{
@@ -640,7 +640,7 @@ button:focus,
     }
 
 /* --------------------------
- * Client Logo 
+ * Client Logo
  *---------------------------*/
 
 .client-logo a img {
