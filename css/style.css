@@ -767,3 +767,16 @@ button:focus,
     text-align : center;
     top        : 65%;
     }
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+	font-size: 18px;
+    color: #888888;
+	line-height: 1.7em;
+	margin-bottom: 20px;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	}
+
+.table>tbody>tr>th {
+	font-weight: bold;
+	}
